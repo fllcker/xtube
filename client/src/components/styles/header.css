@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+
+    align-items: center;
+}
+
+.h_search {
+    width: 30%;
+}
+
+.h_logotype {
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+.videos {
+    width: 80%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+}
+
+.video {
+    margin-right: 10px;
+}
+
+.video_title_p {
+    font-weight: bold;
+    font-size: 18px;
+
+    margin-bottom: 5px;
+
+    color: black;
+    text-decoration: none;
+}
+
+.video_views_p {
+    margin-top: 10px;
+}
+
+.video_preview {
+    background-color: black;
+
+    width: 320px;
+    height: 180px;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video_preview_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.video_mini_desc {
+    max-width: 320px;
+}

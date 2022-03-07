@@ -1,0 +1,28 @@
+.videoPlayerDiv {
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+
+    width: 1200px;
+    height: 675px;
+}
+
+.videoWatch {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    width: 70%;
+
+    padding: 20px;
+}
+
+iframe {
+    width: 1200px;
+    height: 675px;
+}
+
+.description {
+    width: 90%;
+}
